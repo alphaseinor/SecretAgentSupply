@@ -103,6 +103,14 @@ nav span{
   max-width: 8rem;
 }
 
+footer {
+  margin-top: 4rem;
+  padding: 2.5rem 0;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
 .boxen{
   max-width: 960px;
   margin: auto;
