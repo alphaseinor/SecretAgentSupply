@@ -3,6 +3,11 @@ html{
   font-size: 18px;
 }
 
+h1{
+  margin-top: 0.25rem;
+  font-size: 2rem;
+}
+
 header {
   background-color: black;
   color: white;
@@ -22,8 +27,19 @@ header span{
   padding-left: 1rem;
 }
 
-main{
+nav {
 
+  background-color: firebrick;
+  color: white;
+}
+
+nav .boxen{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav span{
+  padding: 0.75rem 0 0.75rem 0;
 }
 
 .banner {
@@ -41,19 +57,13 @@ main{
   padding: 2rem 3rem;
   position: relative;
   top: 9rem;
+  text-transform: uppercase;
 }
 
-h1{
-  margin-top: 0.25rem;
-  font-size: 2rem;
-}
+
 
 
 .boxen{
   max-width: 960px;
   margin: auto;
-}
-
-.new_arrival{
-  text-transform: uppercase;
 }
