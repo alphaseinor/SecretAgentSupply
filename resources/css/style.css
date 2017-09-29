@@ -21,9 +21,37 @@ header .boxen{
 header span{
   padding-left: 1rem;
 }
+
+main{
+
+}
+
+.banner {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.new_arrival {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+h1{
+  margin-top: 0.25rem;
+  font-size: 2rem;
+}
+
+
 .boxen{
   max-width: 960px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .new_arrival{
