@@ -1,1 +1,31 @@
+html{
+  font-family: helvetica;
+  font-size: 18px;
+}
 
+header {
+  background-color: black;
+  color: white;
+}
+
+header img{
+  height: 1.5rem;
+}
+
+header .boxen{
+  display: flex;
+  align-items: center;
+  padding: .66rem 0 .66rem .5em;
+
+}
+header span{
+  padding-left: 1rem;
+}
+.boxen{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.new_arrival{
+  text-transform: uppercase;
+}
